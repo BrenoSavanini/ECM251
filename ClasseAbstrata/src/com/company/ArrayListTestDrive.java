@@ -13,10 +13,11 @@ public class ArrayListTestDrive {
         MinhaClasse minhaClasse = new MinhaClasse(10,"All Might");
 
         minhaLista.add(minhaClasse);
+
         minhaLista.add(new MinhaClasse(2,"Endevour"));
 
         for(MinhaClasse m: minhaLista) {
-            System.out.println(minhaClasse);
+            System.out.println(m);
         }
 
     }
